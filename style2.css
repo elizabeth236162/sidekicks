@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  margin: 10px 0;
+  font-size: 1.5em;
+  color: #ffb300;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+.banner h2 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 1.5em;
+  background: black;
+  padding: 10px;
+  color: white;
+}
+
+.nav-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  background: #d29d2b;
+  padding: 10px;
+}
+
+.nav-buttons button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.catalogos h2,
+.eventos h2,
+.redes h2,
+.venta p,
+.nosotros h2 {
+  color: #ffb300;
+  margin: 20px 0 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 0 10px;
+}
+
+.card {
+  background: black;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card p {
+  margin: 5px 0 0;
+}
+
+.eventos-grid {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.eventos-grid img {
+  width: 45%;
+  border-radius: 8px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #d29d2b;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px auto;
+  width: fit-content;
+}
+
+.icons img {
+  width: 30px;
+  height: 30px;
+}
+
+.venta form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+}
+
+.venta input,
+.venta button {
+  padding: 10px;
+  width: 80%;
+  max-width: 300px;
+  border-radius: 5px;
+  border: none;
+}
+
+.venta button {
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+
+.nosotros-contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.nosotros-contenido img {
+  width: 80%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+footer {
+  background: #d29d2b;
+  color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+}
